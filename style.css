@@ -1,0 +1,177 @@
+
+    
+html,body{
+     height: 100%;
+     width: 100%;
+     padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    scroll-behavior: smooth;
+ }
+  section{
+    height: 100vh;
+    width: 100%;
+  }
+  @media (max-width: 768px) {
+    .article {
+      flex: 0 0 48%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .article {
+      flex: 0 0 100%;
+    }
+  }
+  #main{
+    background-image:url(images/ravi-prakash-CZxmFugvAWs-unsplash.jpg);
+    background-size: 100%;
+  }
+  .hero{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content:space-evenly;
+    height: 100px;
+    width:500px;
+    color:#fefae0;
+    border-radius: 8px;
+    font-weight: bolder;
+    padding-left: 10px;
+  }
+  .title{
+    font-size: 100px;
+    border-radius: 6px;
+    margin: 0px auto;
+    color:#fefae0;
+  }
+  #title1{
+     background-color:#283618 ;
+     text-align: center;
+  }
+  
+  #scroll-btn{
+    width: 100px;
+    height: 50px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 6px;
+   background: linear-gradient(#40916c, #d8f3dc);
+   font-weight: bold;
+  }
+  #section2{
+  background:linear-gradient(#264653, white);
+  font-family: inherit;
+  height: 1400px;
+  }
+  .dstnt{
+    display:flex;
+   align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    column-gap: 2em;
+    row-gap: 3em;
+    color: #4a4e69;
+    margin-top: 20px;
+  }
+.dstnt img{
+width: 300px;
+height: 300px;
+object-fit: cover;
+border-radius: 10px;
+  }
+  #section3{
+    background-color: #708d81;
+    height: 4150px;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    padding-top: 50px;
+    color: #d2bf91;
+  }
+  #title3{
+    text-align: center;
+  }
+  .sub-title{
+    font-family:Georgia;
+    border-bottom: 2px solid #d2bf91;
+    font-size: 50px;
+  }
+  .footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 20px;
+  }
+  .footer h2{
+    font-size: 30px;
+  }
+  .art{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 3em;
+  }
+  #brdr{
+    border-bottom: 2px solid #d2bf91;
+    padding-bottom: 30px;
+  }
+  .footer img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+      }
+  .food{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .food .article{
+      flex: 0 0 32%; /* Ensures each article takes up approximately 32% of the row */
+  margin-bottom: 20px; /* Optional, for spacing between rows */
+  box-sizing: border-box; /* Includes padding and border in the element's total width */
+  }
+  .food h2{
+    margin-bottom: 5px;
+  }
+  #section4{
+    height: 100vh;
+    background-color: #faedcd;
+  }
+  .avatar {
+    width: 400px;
+    height: 400px;
+    margin: 0px auto;
+    object-fit: cover;
+ }
+ 
+ .card {
+     width: 400px;
+     margin: 100px auto 0px auto;
+     padding: 20px;
+     display: block;
+     justify-content: space-around;
+     text-align: center;
+     background: #e0e1dd;
+     color: #2b2839;
+     border-bottom: 6px solid #778da9;
+     border-right: 6px solid #1b263b;
+     border-left: 6px solid #415a77;
+     border-top: 6px solid #0d1b2a;
+     border-radius: 20px;
+         
+     /*
+     Challenge:
+     Find a color palette you like on Coolors.co
+     and use it in your business card.
+      */
+ }
